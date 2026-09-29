@@ -1,0 +1,64 @@
+body{
+    background-color: grey;
+    padding: 0 200px;
+    align-self: auto;
+    display: flex;
+}
+
+.Card{
+    background-color: white;
+    height: 500px;
+    width: 300px;
+    border-radius: 9px;
+    margin: 4px;
+}
+
+.image{
+    padding: 15px;
+}
+.image img{
+    border: 2px solid white;
+    border-radius: 9px;
+}
+
+.content{
+    padding: 10px;
+}
+
+.content p{
+    font-size: 16px;
+    color: rgb(176, 171, 171);
+}
+
+.capsules{
+    padding: 0 35px 0 15px;
+}
+
+.capsules span{
+    font-style: italic;
+    border: 1px solid rgb(212, 211, 211);
+    padding: 0px 6px;
+    border-radius: 7px;
+    font-size: 14px;
+    color: rgb(139, 138, 138);
+}
+
+.button{
+    text-align: center;
+}
+.button button{
+    background-color: rgb(202, 229, 249);
+    padding: 7px 13px;
+    border-radius: 15px;
+    border-color: white;
+    color: rgb(70, 170, 223);
+    margin-top: 4px;
+    font-size: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.button button:hover{
+    background-color: rgb(191, 223, 247);
+    color: rgb(70, 170, 223);
+}
